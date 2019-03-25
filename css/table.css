@@ -1,0 +1,41 @@
+/* Estilo básico para apresentação das tabelas */
+
+
+table{
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+td{
+    border: 1px solid #333;
+    font-size: 14px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.celula{
+    position: absolute;
+    font-size: 10px;
+    color: #727;
+    top: 1px;
+    right: 1px;
+}
+
+input.celValue{
+    border: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 1em;
+}
+
+#tableOutput td {
+    /* width: 5px; */
+    padding: 18px 22px;
+
+    background: #1C002E;
+	color: #109D4F;
+	border: none;
+	font-size: 1em;
+}

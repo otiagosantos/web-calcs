@@ -1,0 +1,134 @@
+<!-- By Tiago Santos (Schaeffer) 
+    codepen: https://codepen.io/tSchaeffer/
+    github:  https://github.com/TiagoSchaeffer/
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- PADRÃO PARA TODOS OS .html 
+        -------------------------------------------- -->
+        <header class="main-header">
+            <div class="content">
+                <h1><a href="index.html">Calcs</a></h1>
+                
+                <p class="fl-right"><span class="nav-toggle open">...</span></p>
+
+                <nav class="main-nav" >
+                    <p class="text-right">
+                        <span class="nav-toggle close">X</span>
+                    </p>
+
+                    <ul>
+                        <a href="index.html"><li>HOME</li></a>
+                        <a href="#"><li>CALCULADORAS</li></a>
+                        <a href="#"><li>SOBRE</li></a>
+                        <a href="#foot"><li>CONTATO</li></a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="solid-header"></div>
+        <!-- / FIM PADRÃO -->
+
+        <!-- INDEX AREA 
+        -------------------------------------------- -->
+        <div class="main-content">
+            <div class="section-name">
+                <h1>Calculadoras</h1>
+            </div>
+
+            <!-- post 1 - calculadora Eq.Quadratica -->
+            <div class="bg white">
+                <h2>Equação Quadrática</h2>
+                <!-- IMG da calculadora -->
+                <div class="calcs-icon">
+                    <a href="eq-quadratica.html">
+                    <img src="images/eq-quadratica-icon.jpg" class="calcs-icon" alt="eq-quadratica">
+                    </a>
+                </div>
+                <p>
+                    Equação polinomial de grau dois, em que X é uma variável, sendo a, b e c constantantes, com a diferente de 0.
+                </p>
+                
+            </div>
+
+            <!-- post 2 - calculadora Produto Escalar -->
+            <div class="bg black">
+                <h2>Produto Escalar</h2>
+                <!-- IMG da calculadora -->
+                <div class="calcs-icon">
+                    <a href="produto-escalar.html">
+                         <img src="images/produto-escalar-icon.jpg" class="calcs-icon" alt="produto-escalar">
+                    </a>
+                </div>
+                <p>
+                        Oproduto escalar de um número x por uma matriz A é tal que cada posição da matriz resultante é a multiplicação por x do elemento equivalente na matriz A 
+                </p>
+                
+            </div>
+
+            <!-- post 3 - EM BREVE Soma de Matrizes -->
+            <div class="bg white" style="color: #ccc">
+                <h2>Soma de Matrizes</h2>
+                <!-- IMG da calculadora -->
+                <div class="calcs-icon">
+                    <a style="color: #ccc; ">
+                         <img src="images/produto-escalar-icon.jpg" class="calcs-icon" alt="EM Breve">
+                    </a>
+                </div>
+                <p>
+                        Calculadora estará disponível em breve...
+                </p>
+                
+            </div>
+        </div>
+        
+        <!-- PADRÃO PARA TODOS OS .html 
+        -------------------------------------------- -->
+        <footer class="main-footer" id="foot">            
+            
+
+            <div class="footer-box-left">
+                <div class="fallow">
+                    <h1 class="text-center">Siga</h1>
+                    <ul class="text-center">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/in/tiago-gon%C3%A7alves-dos-santos-4a721a156/" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://codepen.io/tSchaeffer/#" target="_blank">Codepen</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-box-right">
+                <div class="contact">
+                    <h1 class="text-center">Contate</h1>
+                    <!-- email -->
+                    <form>
+                        <div class="contact-content">
+                            <input class="email" name="email" type="email" placeholder="Seu Email" required>
+                            <br>
+                            <input class="assunto" name="assunto" type="text" placeholder="Sem Assunto?">
+                            <br>
+                            <textarea class="msg" name="mensagem" rows="1" cols="32" wrap="virtual" placeholder="Mensagem"></textarea>
+                            <br>
+                            <input class="enviar" type="submit" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <p class="text-center">2019 - por Tiago Santos</p>
+        </footer>
+        <!-- / FIM PADRÃO -->
+
+        <script src="js/mobile-menu.js"></script>
+        <script src="js/geral.js"></script>
+    </body>
+</html>

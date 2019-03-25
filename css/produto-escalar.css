@@ -1,0 +1,16 @@
+/* popups e tratamento de erros */
+
+
+
+#popup1 {
+    top: 0px;
+    left: 53px;
+}
+#popup2 {
+    top: 0px;
+    left: 53px;
+}
+
+label[for=altura]{
+    margin-right: 12.5px;
+}

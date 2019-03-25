@@ -1,0 +1,80 @@
+div.main-app{
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+
+    margin-top: 15px;
+
+    background: #33084f;
+    border: 1px solid #3339;
+    border-radius: 5px;
+    color: #ddd;
+}
+div.definicao{
+    background: #0005;
+    color: #fff;
+
+    border-radius: 3px 3px 0px 0px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+label{
+    color: #ddd;
+}
+input{
+    background: #1c002e;
+    color: #d89216;
+
+    border: none;
+}
+input[type=submit]{
+    background: #1C002E;
+	color: #D89216;
+	border: none;
+	margin: 5px;
+	padding: 3px;
+	font-size: 1em;
+}
+input[type=submit]:hover{
+    background: #1C002E;
+	color: #109D4F;
+	border: none;
+}
+
+
+
+/* Popup e erros */
+
+.popup-margin{
+    position: relative;
+    /* z-index: 9; */
+    top: 10px;
+    left: -3px;
+    /* margin-top: -20px; */
+}
+.popup {
+    max-width: 340px;
+    background: #727272A0;
+    padding: 10px;
+    border-radius: 6px;
+    color: #E85000;
+
+    position: absolute;
+    z-index: 9;
+
+    font-size: 12px;
+    line-height: 20px;
+}
+.popup:after {
+    content: "";
+    display: block;
+    width: 0; 
+    height: 0; 
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-bottom: 12px solid #727272A0; 
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    z-index: 9;
+}

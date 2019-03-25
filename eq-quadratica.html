@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/eq-quadratica.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/calculadoras.css">
+    </head>
+    <body>
+        <!-- PADRÃO PARA TODOS OS .html 
+        -------------------------------------------- -->
+        <header class="main-header">
+            <div class="content">
+                <h1><a href="index.html">Calcs</a></h1>
+                    
+                <p class="fl-right"><span class="nav-toggle open">...</span></p>
+    
+                <nav class="main-nav" >
+                    <p class="text-right">
+                        <span class="nav-toggle close">X</span>
+                    </p>
+
+                    <ul>
+                        <a href="index.html"><li>HOME</li></a>
+                        <a href="produto-escalar.html"><li>CALCULADORAS</li></a>
+                        <a href="#"><li>SOBRE</li></a>
+                        <a href="#"><li>CONTATO</li></a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="solid-header"></div>
+        <!-- / FIM PADRÃO -->
+
+        <!-- CALCULADORA 
+        -------------------------------------------- -->
+        <div class="section-name">
+            <h1>EQ. QUADRÁTICA</h1>
+        </div>
+        <div class="main-app">
+            <div class="definicao">
+                <p>Equação polinomial de grau dois, em que X é uma variável, sendo a, b e c constantantes, com a diferente de 0.</p>
+            </div>
+
+            <form>
+                <label for="a">A: </label>
+                <input  type="tel" id="a" placeholder="0" required>
+                <div class="popup-margin" style="margin-bottom: -20px">
+                    <div class="popup" style="display: none; opacity: 0;">Valor de 'A' deve ser diferente de 0.</div>
+                </div>
+
+                <br>
+                <label for="b">B: </label>
+                <input  type="tel" id="b" placeholder="0" required>
+                <br>
+                <label for="c">C: </label>
+                <input  type="tel" id="c" placeholder="0" required>
+            </form>
+                
+                <input type="submit" class="submit" value="Calcular">
+
+                <h2>RESULTADO:</h2>
+                <div class="resultado">
+                    <!-- resultado -->
+                </div>
+        </div>
+        <!-- FIM /CALCULADORA -->
+
+        <!-- PADRÃO PARA TODOS OS .html 
+        -------------------------------------------- -->
+        <footer class="main-footer">            
+        
+
+            <div class="footer-box-left">
+                <div class="fallow">
+                    <h1 class="text-center">Siga</h1>
+                    <ul class="text-center">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/in/tiago-gon%C3%A7alves-dos-santos-4a721a156/" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://codepen.io/tSchaeffer/#" target="_blank">Codepen</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-box-right">
+                <div class="contact">
+                    <h1 class="text-center">Contate</h1>
+                    <!-- email -->
+                    <form>
+                        <div class="contact-content">
+                            <input class="email" name="email" type="email" placeholder="Seu Email" required>
+                            <br>
+                            <input class="assunto" name="assunto" type="text" placeholder="Sem Assunto?">
+                            <br>
+                            <textarea class="msg" name="mensagem" rows="1" cols="32" wrap="virtual" placeholder="Mensagem"></textarea>
+                            <br>
+                            <input class="enviar" type="submit" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <p class="text-center">2019 - por Tiago Santos</p>
+        </footer>
+        <!-- / FIM PADRÃO -->
+
+        <script src="js/eq-quadratica.js"></script>
+        <script src="js/mobile-menu.js"></script>
+    </body>
+</html>
